@@ -1,0 +1,12 @@
+checkpoints/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+todo.txt
+interview.md
+data/
+.DS_Store
