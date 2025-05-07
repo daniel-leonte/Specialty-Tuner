@@ -1,7 +1,7 @@
 # SpecialtyTuner – Compact ML Code Generation Assistant
 
-SpecialtyTuner is a lightweight *instruction-tuned* language model that writes **production-ready Python code for common machine-learning and data-science tasks**.  
-The project shows how far you can push a modern open-source LLM by combining:
+SpecialtyTuner is a lightweight *instruction-tuned* language model that writes **Python code for common machine-learning and data-science tasks**.  
+The project shows how to use a modern open-source LLM by combining:
 
 * CodeLlama-7b-hf as a base model (≈7 B parameters)
 * Parameter-efficient **LoRA** fine-tuning (rank = 16) on hand-curated ML examples
