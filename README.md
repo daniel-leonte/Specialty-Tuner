@@ -26,15 +26,20 @@ The project shows how to use a modern open-source LLM by combining:
 
 ```bash
 # 1. Clone & install
-$ git clone <your-repo-url> specialtytuner && cd specialtytuner
-$ python3 -m venv .venv && source .venv/bin/activate
-$ pip install -r requirements.txt
+```bash
+git clone https://github.com/daniel-leonte/Specialty-Tuner.git && cd Specialty-Tuner
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+```
 
 # 2. (Optional) download the released LoRA checkpoint
-$ wget -O checkpoints/best/adapter_model.bin <link-to-checkpoint>
+```bash
+wget -O checkpoints/best/adapter_model.bin <link-to-checkpoint>
+```
 
 # 3. Generate code ✨
-$ python scripts/infer.py \
+```bash
+python scripts/infer.py \
         --prompt "Load a CSV with pandas, drop NA rows, then train a RandomForestClassifier" \
         --temperature 0.2 --top_p 0.95 --streaming
 ```
